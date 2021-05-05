@@ -339,6 +339,41 @@ textarea {
 }
 
 @media only screen and (max-width: 640px) {
+
+    nav {
+        display: grid;
+        grid-area: 1fr / 1fr;
+        grid-template-areas: "logo" "navbar";
+        margin: 1em;
+        background-color: white;
+        font-family: 'Lora', serif;
+    }
+
+    .navbar .active {
+        background-color: #f3ebcf;
+        padding: 1em;
+    }
+    
+    li {
+        display: inline-block;
+    }
+
+    
+    li+li::before {
+        content: "";
+        padding-left: 1em;
+    }
+
+    .logo {
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar {
+        justify-self: center;
+    }
+
     .homepage {
         height: auto;
         grid-template-columns: repeat(1, 1fr);
@@ -377,8 +412,29 @@ textarea {
 
     .the-table {
         grid-row: 1 / span 1;
-        width: 200px;
+        width: calc(100%-2em);
         overflow: scroll;
     }
+
+    .work-card {
+        width: 200px;
+        min-height: 400px;
+    }
+    
+    
+    .preview{
+        width: 200px;
+
+    }
+
+    
+    .button-container {
+        position: absolute;
+        bottom: 0;
+        padding: 0.8em;
+        background-color: rgba(95, 91, 91, 0.616);
+        width: calc(200px - 1.6em);
+    }
+    
 
 }

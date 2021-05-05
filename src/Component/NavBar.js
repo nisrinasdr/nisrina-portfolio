@@ -21,6 +21,7 @@ const NavBar = () => {
               <NavLink to="/message" activeClassName="active">Say Hello</NavLink>
             </li>
           </ul>
+          
         </nav>
     )
 }
