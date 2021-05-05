@@ -4,27 +4,35 @@ import {
   Switch,
   Route
 } from "react-router-dom"
+import About from "./About"
 import HomePage from "./HomePage"
-import NavBar from "./NavBar"
+import Message from "./Message"
+import Work from "./Work"
 
 function Routes() {
   return (
     <Router>
       <div>
-        <NavBar />
+        {/* <NavBar /> */}
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
           </Route>
-          <Route path="/about">
-            {/* <Users /> */}
+          <Route exact path="/about">
+            <About />
           </Route>
-          <Route path="/say-hello">
-            {/* <Home /> */}
+          <Route exact path="/work">
+            <Work />
           </Route>
+          <Route exact path="/message">
+            <Message />
+          </Route>
+          {/* <Route exact path="/say-hello">
+            <NavBar />
+          </Route> */}
         </Switch>
       </div>
     </Router>
