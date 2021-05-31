@@ -6,13 +6,22 @@ import NavBar from "./NavBar"
 const Work = () => {
     const work = [
         {
-            id: '2',
+            id: '3',
             title: 'Movies and Games Web App',
             description: 'This web app list movies and games submited by user (login required). User can add new data and edit an existing data.',
             keyword: ['HTML/CSS', 'JavaScript', 'ReactJS', 'API (GET, PUSH, PUT, DELETE)', 'Axios', 'MaterialUI'],
             img: 'https://buatannisrina.files.wordpress.com/2021/05/moviegame.png',
             demo: 'https://minimalistic-green.netlify.app/',
             code: 'https://github.com/nisrinasdr/minimalistic-green'
+        },
+        {
+            id: '2',
+            title: 'IScream',
+            description: 'An ice cream order app for cashier. This is a project for Dicoding\'s class: Belajar Dasar Pemrograman Web.',
+            keyword: ['HTML/CSS', 'JavaScript', 'LocalStorage'],
+            img: 'https://buatannisrina.files.wordpress.com/2021/05/screenshot-268.png',
+            demo: 'https://iscream.netlify.app/',
+            code: 'https://github.com/nisrinasdr/IScream'
         },
         {
             id: '1',
