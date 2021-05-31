@@ -43,9 +43,29 @@ const About = () => {
                 <h1 className="highlight-100">Certificate</h1>
                 <ul>
                     <li>
+                        <strong>Dicoding</strong><br />
+                        <small>Valid until May 27, 2024</small> <br />
+                        Belajar Membuat Front-End Web untuk Pemula
+                    </li>
+                    <li>
+                        <strong style={{paddingLeft:"0px !important"}} >Dicoding</strong><br />
+                        <small>Valid until May 24, 2024</small> <br />
+                        <a href="https://www.dicoding.com/certificates/0LZ0D0M5NX65" 
+                           alt="certificate link"
+                           target="__blank"
+                           className="certificate-link">
+                        Belajar Dasar Pemrograman Web
+                        </a> 
+                    </li>
+                    <li>
                         <strong>Sanbercode</strong><br />
                         <small>February 15th - March 12th, 2021</small> <br />
+                        <a href="https://www.dicoding.com/certificates/53XEE7VEKXRN" 
+                           alt="certificate link"
+                           target="__blank"
+                           className="certificate-link">
                         ReactJS Web Frontend Development
+                        </a>
                     </li>
                 </ul>
             </div>
