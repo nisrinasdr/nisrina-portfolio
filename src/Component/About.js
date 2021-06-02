@@ -45,7 +45,12 @@ const About = () => {
                     <li>
                         <strong>Dicoding</strong><br />
                         <small>Valid until May 27, 2024</small> <br />
+                        <a href="https://www.dicoding.com/certificates/53XEE7VEKXRN" 
+                           alt="certificate link"
+                           target="__blank"
+                           className="certificate-link">
                         Belajar Membuat Front-End Web untuk Pemula
+                        </a>
                     </li>
                     <li>
                         <strong style={{paddingLeft:"0px !important"}} >Dicoding</strong><br />
@@ -60,7 +65,7 @@ const About = () => {
                     <li>
                         <strong>Sanbercode</strong><br />
                         <small>February 15th - March 12th, 2021</small> <br />
-                        <a href="https://www.dicoding.com/certificates/53XEE7VEKXRN" 
+                        <a href="https://drive.google.com/file/d/1dc3MIjjck_HBMJfPmE1nSD6DxVFG_4yE/view" 
                            alt="certificate link"
                            target="__blank"
                            className="certificate-link">
