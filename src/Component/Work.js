@@ -11,8 +11,8 @@ const Work = () => {
             description: 'This web app list movies and games submited by user (login required). User can add new data and edit an existing data.',
             keyword: ['HTML/CSS', 'JavaScript', 'ReactJS', 'API (GET, PUSH, PUT, DELETE)', 'Axios', 'MaterialUI'],
             img: 'https://buatannisrina.files.wordpress.com/2021/05/moviegame.png',
-            demo: 'https://minimalistic-green.netlify.app/',
-            code: 'https://github.com/nisrinasdr/minimalistic-green'
+            demo: 'https://movieandgame.netlify.app/',
+            code: 'https://github.com/nisrinasdr/thefinalproject'
         },
         {
             id: '2',
@@ -29,8 +29,8 @@ const Work = () => {
             description: 'Online wedding invitation with counting feature, send message, and carousel picture.',
             keyword: ['HTML/CSS', 'JavaScript', 'Bootstrap'],
             img: 'https://buatannisrina.files.wordpress.com/2021/05/wedding.png',
-            demo: 'https://movieandgame.netlify.app/',
-            code: 'https://github.com/nisrinasdr/thefinalproject'
+            demo: 'https://minimalistic-green.netlify.app/',
+            code: 'https://github.com/nisrinasdr/minimalistic-green'
         }
     ]
 
